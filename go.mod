@@ -8,9 +8,4 @@ require (
 )
 
 
-{{ $path := "" }}
-  {{ with .File }}
-        {{ $path = .Path }}
-  {{ else }}
-        {{ $path = .Path }}
-  {{ end }}
+
